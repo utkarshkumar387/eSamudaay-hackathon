@@ -583,6 +583,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-brand img {
   width: 75%;
+
+}
+
+.nav-brand-web{
+  display: block;
+}
+.nav-brand-mobile{
+  display: none;
 }
 
 .top-nav-collapse {
@@ -836,6 +844,14 @@ a.back-to-top:hover, a.back-to-top:focus {
     margin-bottom: 0;
     padding: 0px 40px;
     color: #212121;
+  }
+}
+@media (max-width: 640px) {
+  .nav-brand-web{
+    display: none;
+  }
+  .nav-brand-mobile{
+    display: block;
   }
 }
 
