@@ -839,9 +839,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
 }
 
-#about {
-  background: #F6F9F9;
-}
 
 .about-content {
   height: 100%;
@@ -1945,6 +1942,7 @@ h1 {
   position: relative;
   top: -40px;
   z-index: 999;
+  border: 1px solid #adabab;
 }
 
 #contact-text ul {
@@ -2139,10 +2137,6 @@ footer {
 /* ==========================================================================
    Countdown Style Start
    ========================================================================== */
-#count {
-  background: #F6F9F9;
-}
-
 #count .count-wrapper {
   background-image: linear-gradient(to right top, #7d3d91, #8f3c92, #a13b92, #b23990, #c2388d);;
   border-radius: 4px;

@@ -35,7 +35,8 @@
               '<div class="time-entry days"><span>%-D</span> <b>:</b> Days</div> ' +
               '<div class="time-entry hours"><span>%H</span> <b>:</b> Hours</div> ' +
               '<div class="time-entry minutes"><span>%M</span> <b>:</b> Minutes</div> ' +
-              '<div class="time-entry seconds"><span>%S</span> Seconds</div> '
+              '<div class="time-entry seconds"><span>%S</span> Seconds</div> ' +
+              '<p style="color: #fff; display: inline-block;"><b>29th july. Live from 11:00 AM</b></p>'
           )
         );
       }
