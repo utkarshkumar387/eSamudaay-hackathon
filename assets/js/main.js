@@ -35,8 +35,7 @@
               '<div class="time-entry days"><span>%-D</span> <b>:</b> Days</div> ' +
               '<div class="time-entry hours"><span>%H</span> <b>:</b> Hours</div> ' +
               '<div class="time-entry minutes"><span>%M</span> <b>:</b> Minutes</div> ' +
-              '<div class="time-entry seconds"><span>%S</span> Seconds</div> ' +
-              '<p style="color: #ffffff;"><b>NOTE: Problem statement Doc will be displayed here on the day of Hackathon</b></p>'
+              '<div class="time-entry seconds"><span>%S</span> Seconds</div> '
           )
         );
       }
