@@ -26,7 +26,10 @@
         event.offset.seconds === 0
       ) {
         var $this = jQuery(this).html(
-          `<h2 style="color: #ffffff;">Please have Patience</h2>`
+          `<div style="display: flex; align-items: center; justify-content: center;"><div class="banner-btn">
+          <a style="background: linear-gradient(92.13deg, #301659 0%, rgba(87, 25, 176, 0.954167) 57.29%, rgba(103, 68, 148, 0.92) 100%);" href="https://docs.google.com/document/d/16gRmb0QIhB7D-3p7eyMHl_eiLIZgBwWBcRdlOPtmFIU/edit#heading=h.jr9ys29wudc8"
+            target="_blank" class="btn btn-common">Problem Statement</a>
+        </div></div>`
         );
       } else {
         var $this = jQuery(this).html(
